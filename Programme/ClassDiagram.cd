@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DefiningFlameColor">
+    <Position X="6.5" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIQAACAAAawKBQwwIASBZQQAABBAMBAEJAIQAIkHABA=</HashCode>
+      <FileName>Assets\Scenes\DefiningFlameColor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefiningIndecatorColor">
+    <Position X="2.5" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAIAABAAAAAAAAAAAAAAAAAAQAACAAAYA=</HashCode>
+      <FileName>Assets\Scenes\DefiningIndecatorColor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IneractionOfAcidAndHydroxide">
+    <Position X="12.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gBQAxBJAACACRAAwAUAFACAAJIAAECAACAAAAAACEAQ=</HashCode>
+      <FileName>Assets\Scenes\IneractionOfAcidAndHydroxide.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InteractionOfAcidAndMetal">
+    <Position X="4.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gBQAwBZAICAABAAwAESFACgAAIgAUAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scenes\InteractionOfAcidAndMetal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InteractionOfAcidAndOxides">
+    <Position X="4.5" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gBQAwBJAICAABEAwAEAFACABAIgAEABACAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scenes\InteractionOfAcidAndOxides.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InteractionOfOxideAndHydroxide">
+    <Position X="2.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gBQAxAJAICAAQEAwAEAAACABAIgAECBECAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scenes\InteractionOfOxideAndHydroxide.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InteractionOfSubstances">
+    <Position X="10.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>iDQg0AdAKDAEZAoQAOAAIGIQIAAAUGAAAIBgMQAIoAI=</HashCode>
+      <FileName>Assets\Scenes\InteractionOfSubstances.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatternClass">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACQAAEAEBAEAIAgBCIIAAIAIgCAAAQGAAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scenes\PatternClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneButtons">
+    <Position X="0.5" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAAAAAAgAAAAAAAAQAAgEAAAAAAgAACAAAAAAIA=</HashCode>
+      <FileName>Assets\Scenes\SceneButtons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

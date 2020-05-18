@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Day Extra Large Calm
+  m_Shader: {fileID: 4800000, guid: 2225a3bd63dcb6e4f85c88b2acdb0d99, type: 3}
+  m_ShaderKeywords: _2NDENABLED_ON _BLENDENABLETHIS_ON _SECONDARYENABLETHIS_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _1stHeightmap:
+        m_Texture: {fileID: 2800000, guid: 228b2c301ad35c9449ab45f3112f090e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _1stNormalmap:
+        m_Texture: {fileID: 2800000, guid: 6ed99089d8d6dbf4bbeb2ecef32d71c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _1stRefractionNormal:
+        m_Texture: {fileID: 2800000, guid: 6ed99089d8d6dbf4bbeb2ecef32d71c1, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _1stRefractionTexture:
+        m_Texture: {fileID: 2800000, guid: 228b2c301ad35c9449ab45f3112f090e, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _2ndHeightmap:
+        m_Texture: {fileID: 2800000, guid: 228b2c301ad35c9449ab45f3112f090e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _2ndNormalmap:
+        m_Texture: {fileID: 2800000, guid: 6ed99089d8d6dbf4bbeb2ecef32d71c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _2ndRefractionNormal:
+        m_Texture: {fileID: 2800000, guid: 6ed99089d8d6dbf4bbeb2ecef32d71c1, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _2ndRefractionTexture:
+        m_Texture: {fileID: 2800000, guid: 228b2c301ad35c9449ab45f3112f090e, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _BaseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubemapCustomCubemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubemapReflectionCubemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 9c586f3b2bf9d50418485ac68798787d, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap_copy:
+        m_Texture: {fileID: 2800000, guid: 9c586f3b2bf9d50418485ac68798787d, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PrimaryHeightmap:
+        m_Texture: {fileID: 2800000, guid: 228b2c301ad35c9449ab45f3112f090e, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _PrimaryNormalmap:
+        m_Texture: {fileID: 2800000, guid: 6ed99089d8d6dbf4bbeb2ecef32d71c1, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionCubemap:
+        m_Texture: {fileID: 8900000, guid: 917a1c69af1357d42a72875e0d75e075, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryHeightmap:
+        m_Texture: {fileID: 2800000, guid: 228b2c301ad35c9449ab45f3112f090e, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryNormalmap:
+        m_Texture: {fileID: 2800000, guid: 6ed99089d8d6dbf4bbeb2ecef32d71c1, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _node_5108:
+        m_Texture: {fileID: 8900000, guid: 917a1c69af1357d42a72875e0d75e075, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _1stHeightStrength: 0.5
+    - _1stRefractionStrength: 0.02
+    - _2ndEnableThis: 1
+    - _2ndEnabled: 1
+    - _2ndHeightStrength: 0.5
+    - _2ndRefractionStrength: -0.0112
+    - _BaseColorisasEmission: 0
+    - _BaseisasEmission: 0
+    - _BlendBlendAlpha: 0
+    - _BlendBlendDistance: 1.58
+    - _BlendEnableThis: 1
+    - _BumpScale: 1
+    - _CubemapFresnel: 10.02
+    - _CubemapGlossiness: 1
+    - _CubemapStrength: 1
+    - _CubemapUseCustomCubemap: 0
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DiffuseisasEmission: 0
+    - _DstBlend: 0
+    - _Fresnel: 10.72
+    - _Gloss: 0.841
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Height: 7.7
+    - _HeightStrength: 10
+    - _Metalic: 1
+    - _Metallic: 0.875
+    - _Mode: 0
+    - _NormalStrength: 0.214
+    - _OcclusionStrength: 1
+    - _OverallBlendDistance: 1.14
+    - _OverallGloss: 0.824
+    - _OverallHeight: 4.1
+    - _OverallMetallic: 0.996
+    - _OverallNormalStrength: 0.109
+    - _OverallWaveHeight: 2.66
+    - _Parallax: 0.02
+    - _PrimaryHeightStrength: 0.5
+    - _SSRefractionConstantValue: 0
+    - _SSRefractionDecaydistance: 25
+    - _SSRefractionHeightEfficiency: 0.02
+    - _SSRefractionRefractionFresnel: 0.84
+    - _SSRefractionStrength: 0.025
+    - _SecondaryEnableThis: 1
+    - _SecondaryHeightStrength: 0.5
+    - _Smoothness: 0.831
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TessellationComplex: 95
+    - _TessellationFar: 30
+    - _TessellationFarCap: 100
+    - _TessellationNear: 0
+    - _TessellationNearCap: 0
+    - _TessellationStrength: 21.9
+    - _UVSec: 0
+    - _VertexStrength: 5.36
+    - _ZWrite: 1
+    - _node_3028: 0
+    - _node_3759: 1
+    - _node_495: 6
+    - _node_7270: 1
+    m_Colors:
+    - _1stUandVspeedZandWnoaffects: {r: 0.004, g: 0.00452, b: 0, a: 0}
+    - _2ndUandVspeedZandWnoaffects: {r: -0.0015, g: -0.00225, b: 0, a: 0}
+    - _BaseColor: {r: 0.31163496, g: 0.7475333, b: 0.9632353, a: 0.522}
+    - _BlendColor: {r: 0.3255576, g: 0.30147058, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DiffuseColor: {r: 1, g: 1, b: 1, a: 0.328}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _PrimaryUandVspeedZWNotused: {r: 0.001, g: 0.001, b: 0, a: 0}
+    - _PrimaryUandVspeedZandWnoaffects: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _SecondaryUandVspeedZWNotused: {r: -0.005, g: -0.00075, b: 0, a: 0}
+    - _SecondaryUandVspeedZandWnoaffects: {r: -0.05, g: -0.075, b: 0, a: 0}
