@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 05bc0a8c0ac3b5946871be054e04e322
+timeCreated: 1550669202
+licenseType: Store
+ShaderImporter:
+  defaultTextures:
+  - _PrimaryHeightmap: {fileID: 2800000, guid: 228b2c301ad35c9449ab45f3112f090e, type: 3}
+  - _SecondaryHeightmap: {fileID: 2800000, guid: 228b2c301ad35c9449ab45f3112f090e,
+      type: 3}
+  - _PrimaryNormalmap: {fileID: 2800000, guid: 6ed99089d8d6dbf4bbeb2ecef32d71c1, type: 3}
+  - _SecondaryNormalmap: {fileID: 2800000, guid: 6ed99089d8d6dbf4bbeb2ecef32d71c1,
+      type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

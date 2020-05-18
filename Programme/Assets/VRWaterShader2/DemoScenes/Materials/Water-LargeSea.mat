@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Water-LargeSea
+  m_Shader: {fileID: 4800000, guid: 58f047517fd799149bfc42cb67a78e41, type: 3}
+  m_ShaderKeywords: BLEND_ENABLED SECOND_ENABLED THIRD_ENABLED _BLENDENABLETHIS_ON
+    _CULL_BACK _SECONDWAVEENABLETHIS_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BlendTexture:
+        m_Texture: {fileID: 2800000, guid: 6c2ef88e523281d44b493a3326dbedf8, type: 3}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubemapCustomCubemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FirstWaveHeightmap:
+        m_Texture: {fileID: 2800000, guid: d594323606034b0488f0240719eb5964, type: 3}
+        m_Scale: {x: -0.89, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FirstWaveNormalmap:
+        m_Texture: {fileID: 2800000, guid: e301598b44ff05645941635071beb282, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _FourthWaveHeightmap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FourthWaveNormalmap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OverallGlossMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OverallMetallicMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OverallNormalStrengthMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OverallWaveHeightMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SSRefractionStrengthMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondWaveHeightmap:
+        m_Texture: {fileID: 2800000, guid: d594323606034b0488f0240719eb5964, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondWaveNormalmap:
+        m_Texture: {fileID: 2800000, guid: e301598b44ff05645941635071beb282, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _ThirdWaveHeightmap:
+        m_Texture: {fileID: 2800000, guid: d594323606034b0488f0240719eb5964, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThirdWaveNormalmap:
+        m_Texture: {fileID: 2800000, guid: e301598b44ff05645941635071beb282, type: 3}
+        m_Scale: {x: 20, y: 20}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BaseisasEmission: 0
+    - _BlendBlendAlpha: 0
+    - _BlendBlendDistance: 2.62
+    - _BlendEmissionFactor: 0
+    - _BlendEmissionValue: 0
+    - _BlendEnableColor: 0
+    - _BlendEnableThis: 1
+    - _BlendIsAdditive: 0
+    - _BumpScale: 1
+    - _CubemapFresnel: 10.4
+    - _CubemapGlossiness: 1
+    - _CubemapStrength: 0.216
+    - _CubemapUseCustomCubemap: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FirstWaveHeightStrength: 0.5
+    - _FirstWaveNormalStrength: 0.5
+    - _FourthWaveEnableThis: 0
+    - _FourthWaveHeightStrength: -0.148
+    - _FourthWaveNormalStrength: 0.5
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _OverallGloss: 0.371
+    - _OverallMetallic: 1
+    - _OverallNormalStrength: 0.225
+    - _OverallWaveHeight: 2.93
+    - _Parallax: 0.02
+    - _SSRefractionDecaydistance: 10.4
+    - _SSRefractionRefractionFresnel: 3.02
+    - _SSRefractionStrength: 0.158
+    - _SecondWaveEnableThis: 1
+    - _SecondWaveHeightStrength: 0.5
+    - _SecondWaveNormalStrength: 0.5
+    - _ShadowOpacityRatio: 1
+    - _ShadowWaveFactor: 5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TessellationFarCap: 500
+    - _TessellationNearCap: 0
+    - _TessellationStrength: 15.2
+    - _ThirdWaveEnableThis: 1
+    - _ThirdWaveHeightStrength: 0
+    - _ThirdWaveNormalStrength: 0.1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 0, g: 0.25055775, b: 0.5955882, a: 0.822}
+    - _BlendColor: {r: 1, g: 0, b: 0, a: 1}
+    - _BlendTextureUandVspeedZWNotused: {r: 0.01, g: 0.01, b: 0, a: 0}
+    - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    - _CubemapBaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FirstWaveUandVspeed: {r: 0.001, g: 0.001, b: 0, a: 0}
+    - _FirstWaveUandVspeedZWNotused: {r: 0, g: 0, b: 0, a: 0}
+    - _FourthWaveUandVspeed: {r: -0.05, g: -0.075, b: 0, a: 0}
+    - _FourthWaveUandVspeedZWNotused: {r: -0.05, g: -0.075, b: 0, a: 0}
+    - _SecondWaveUandVspeed: {r: -0.0032, g: -0.00152, b: 0, a: 0}
+    - _SecondWaveUandVspeedZWNotused: {r: -0.05, g: -0.075, b: 0, a: 0}
+    - _ThirdWaveUandVspeed: {r: -0.00445, g: -0.00755, b: 0, a: 0}
+    - _ThirdWaveUandVspeedZWNotused: {r: -0.05, g: -0.075, b: 0, a: 0}
